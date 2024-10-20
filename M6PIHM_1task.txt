@@ -1,0 +1,22 @@
+
+Alapvető Git parancsok
+Repository inicializálása és klónozása:
+git init: Új Git repository inicializálása a jelenlegi könyvtárban.
+git clone [url]: Egy létező repository klónozása a megadott URL-ről.
+Fájlok hozzáadása és commitolása:
+git add [file]: Fájl hozzáadása a “stage”-hez, előkészítve a commit-ra.
+git commit -m "[commit message]": A “stage”-elt változások commitolása egy üzenettel.
+Változások szinkronizálása:
+git push: A commitolt változások feltöltése a távoli repository-ba.
+git pull: A legfrissebb változások letöltése a távoli repository-ból és egyesítése a helyi repository-val.
+Állapot és különbségek ellenőrzése:
+git status: Információk a jelenlegi állapotról, például mely fájlok vannak a “stage”-en.
+git diff: A fájlokban történt változások megtekintése, amelyek még nincsenek “stage”-elve.
+Ágak kezelése:
+git branch: Új ág létrehozása.
+git checkout [branch]: Váltás az ágak között.
+git merge [branch]: Két ág egyesítése.
+Egyéb hasznos parancsok:
+git log: A commitok történetének megtekintése.
+git remote add [name] [url]: Új távoli repository hozzáadása.
+git fetch: A távoli repository változásainak letöltése anélkül, hogy egyesítené azokat a helyi repository-val.
